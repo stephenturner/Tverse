@@ -16,7 +16,6 @@ biocViews:
 Imports: 
     assertr,
     beepr,
-    Biostrings,
     BiocManager,
     breakerofchains,
     cli,
