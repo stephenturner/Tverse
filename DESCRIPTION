@@ -1,0 +1,49 @@
+Package: Tverse
+Title: Meta package that installs my most commonly used packages
+Version: 0.1.0
+Authors@R: 
+    person(given = "Stephen",
+         family = "Turner",
+         role = c("aut", "cre"),
+         email = "vustephen@gmail.com",
+         comment = c(ORCID = "0000-0001-9140-9028"))
+Description: Meta package that installs my most commonly used packages.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: 
+    tidymodels,
+    tidyverse
+Imports: 
+    assertr,
+    beepr,
+    BiocManager,
+    cli,
+    clipr,
+    crayon,
+    data.table,
+    datapasta,
+    devtools,
+    DT,
+    flextable,
+    ggrepel,
+    here,
+    janitor,
+    kableExtra,
+    knitr,
+    leaflet,
+    maps,
+    pkgdown,
+    quarto,
+    remedy,
+    rmarkdown,
+    roxygen2,
+    rstudioapi,
+    rticles,
+    shiny,
+    skater,
+    Tmisc,
+    usethis,
+    utils,
+    yaml
