@@ -12,6 +12,8 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Depends: 
+    R (>= 3.4)
 biocViews: 
 Imports: 
     assertr,
@@ -20,13 +22,13 @@ Imports:
     breakerofchains,
     cli,
     clipr,
-    crayon,
     data.table,
     datapasta,
     devtools,
     DT,
     flextable,
     ggrepel,
+    glue,
     here,
     janitor,
     kableExtra,
