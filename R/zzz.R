@@ -1,3 +1,3 @@
-.onLoad <- function(libname, pkgname) {
-  warning("You shouldn't be loading this package...")
+.onAttach <- function(libname, pkgname) {
+  packageStartupMessage("You should not load the Tmisc package.")
 }

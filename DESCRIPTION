@@ -43,6 +43,7 @@ Imports:
     rticles,
     shiny,
     skater,
+    testthat,
     Tmisc,
     usethis,
     utils,
