@@ -12,10 +12,13 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+biocViews: 
 Imports: 
     assertr,
     beepr,
+    Biostrings,
     BiocManager,
+    breakerofchains,
     cli,
     clipr,
     crayon,
@@ -47,3 +50,5 @@ Imports:
     usethis,
     utils,
     yaml
+Remotes:
+    MilesMcBain/breakerofchains
