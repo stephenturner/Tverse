@@ -51,6 +51,7 @@ Imports:
     Tmisc,
     usethis,
     utils,
-    yaml
+    yaml,
+    pracpac
 Remotes:
     MilesMcBain/breakerofchains
