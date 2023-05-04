@@ -39,6 +39,7 @@ Imports:
     roxygen2,
     rstudioapi,
     rticles,
+    reticulate,
     shiny,
     skimr,
     testthat,
