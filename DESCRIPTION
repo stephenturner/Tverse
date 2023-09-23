@@ -16,9 +16,12 @@ Depends:
     R (>= 3.4)
 biocViews: 
 Imports: 
+    BiocManager,
+    Biostrings,
+    IRanges,
+    GenomicRanges,
     assertr,
     beepr,
-    BiocManager,
     breakerofchains,
     cli,
     clipr,
@@ -47,7 +50,6 @@ Imports:
     Tmisc,
     usethis,
     utils,
-    yaml,
-    pracpac
+    yaml
 Remotes:
     MilesMcBain/breakerofchains
