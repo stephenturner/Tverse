@@ -25,6 +25,7 @@ Imports:
     breakerofchains,
     cli,
     clipr,
+    covr,
     data.table,
     datapasta,
     devtools,
