@@ -2,33 +2,26 @@ Package: Tverse
 Title: Meta package that installs my most commonly used packages
 Version: 0.2.0
 Authors@R: 
-    person(given = "Stephen",
-         family = "Turner",
-         role = c("aut", "cre"),
-         email = "vustephen@gmail.com",
-         comment = c(ORCID = "0000-0001-9140-9028"))
+    person("Stephen", "Turner", , "vustephen@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-9140-9028"))
 Description: Meta package that installs my most commonly used packages.
 License: MIT + file LICENSE
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
 Depends: 
     R (>= 4.2.0)
-biocViews: 
 Imports: 
+    beepr,
     BiocManager,
     Biostrings,
-    IRanges,
-    GenomicRanges,
-    beepr,
     breakerofchains,
     cli,
     clipr,
     covr,
     datapasta,
     devtools,
+    GenomicRanges,
     glue,
     here,
+    IRanges,
     janitor,
     knitr,
     pkgdown,
@@ -45,3 +38,7 @@ Imports:
     yaml
 Remotes:
     MilesMcBain/breakerofchains
+biocViews: 
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
