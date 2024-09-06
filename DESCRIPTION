@@ -1,6 +1,6 @@
 Package: Tverse
 Title: Meta package that installs my most commonly used packages
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
     person(given = "Stephen",
          family = "Turner",
@@ -13,39 +13,30 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Depends: 
-    R (>= 3.4)
+    R (>= 4.2.0)
 biocViews: 
 Imports: 
     BiocManager,
     Biostrings,
     IRanges,
     GenomicRanges,
-    assertr,
     beepr,
     breakerofchains,
     cli,
     clipr,
     covr,
-    data.table,
     datapasta,
     devtools,
-    DT,
-    ggrepel,
     glue,
     here,
     janitor,
-    kableExtra,
     knitr,
     pkgdown,
     quarto,
-    remedy,
     rmarkdown,
     roxygen2,
     rstudioapi,
     rticles,
-    reticulate,
-    shiny,
-    skimr,
     testthat,
     tidyverse,
     Tmisc,
