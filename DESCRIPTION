@@ -7,7 +7,7 @@ Authors@R:
 Description: Meta package that installs my most commonly used packages.
 License: MIT + file LICENSE
 Depends: 
-    R (>= 4.2.0)
+    R (>= 4.5.0)
 Imports: 
     beepr,
     BiocManager,
